@@ -23,6 +23,7 @@ public class HashPartitioner implements Partitioner {
     public int partition(String topic, Object key, byte[] keyBytes, Object value, byte[] valueBytes, Cluster cluster) {
 
         Integer nums = cluster.partitionCountForTopic(topic);
+        System.out.println(nums);
         return 0;
     }
 
