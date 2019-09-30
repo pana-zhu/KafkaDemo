@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("kafka")
+@RequestMapping("kafka1")
 public class TestProducerController {
 
     @Autowired
